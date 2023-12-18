@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --bg: #0f172a;
+  --textColor: #ddd;
+  --softBg: #1f273a;
+  --softTextColor: #a6a6a6;
+  --card-bg: hsl(228, 33%, 6%);
+}
+
+.mainContainer {
+  min-height: 100vh;
+  padding: 0 10%;
+  background-color: var(--bg);
+  color: var(--textColor);
+}
